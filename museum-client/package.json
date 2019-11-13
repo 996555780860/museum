@@ -1,0 +1,45 @@
+{
+  "name": "museum-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "form-data": "^2.3.3",
+    "react": "next",
+    "react-calendar": "^2.17.5",
+    "react-dom": "next",
+    "react-easy-swipe": "0.0.17",
+    "react-helmet": "^5.2.0",
+    "react-image-lightbox": "^5.1.0",
+    "react-masonry-component": "^6.2.1",
+    "react-redux": "^6.0.0",
+    "react-render-html": "^0.6.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-yandex-maps": "^3.0.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "source-map-explorer": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "proxy": "http://localhost:80"
+}

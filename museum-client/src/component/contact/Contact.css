@@ -1,0 +1,44 @@
+.contact{
+    background: #212121;
+    text-align: center;
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+.contact-map{
+    display: inline-block;
+}
+
+.contact-text{
+    vertical-align: top;
+    width:auto;
+    max-width: 400px;
+    color: white;
+    display: inline-block;
+}
+
+@media (min-width: 900px){
+    .contact-map{
+        margin: 50px;
+        width:400px;
+        height:400px;
+    }
+
+    .contact-text{
+        margin: 50px;
+        height: 320px;
+        text-align: start;
+    }
+}
+
+@media (max-width: 900px){
+    .contact-map{
+        display: none;
+    }
+
+    .contact-text{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

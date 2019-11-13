@@ -1,0 +1,38 @@
+.selectgallery-museum{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #242424;
+}
+
+.selectgallery-museum-line{
+    margin-top: 20px;
+}
+
+.selectgallery-museum-line-item-name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.selectgallery-museum-line-item{
+    display: inline-block;
+    margin: 10px;
+    width: 290px;
+    height: 555px;
+    border: 3px solid #dac390;
+    border-radius: 3px;
+    vertical-align:top;
+    overflow: hidden;
+
+}
+
+.selectgallery-museum-line-item-image{
+    object-fit: cover;
+    object-position: center;
+    margin: 2px;
+    width: 286px;
+    height: 508px;
+}
+

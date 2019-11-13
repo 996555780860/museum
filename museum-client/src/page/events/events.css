@@ -1,0 +1,86 @@
+.eventlist{
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.eventlist-select:hover{
+    color: white;
+    background: #dac390;
+}
+
+.eventlist-select{
+    height: 50px;
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
+    margin: 20px;
+    font-size: 14px;
+    border: 2px solid #dac390;
+    background: transparent;
+    color: #242424;
+    font-weight: 700;
+}
+
+.react-calendar__tile{
+    background: #dac390;
+}
+
+.events-subcalendar{
+    border: 1px solid #dac390;
+    border-radius: 3px;
+    position: absolute;
+    background: white;
+    z-index: 1000;
+}
+
+.events-submenu-item:hover, .gallery-submenu-item1:hover{
+    color: #dac390
+}
+
+.events-submenu-item{
+    margin-top: 10px;
+}
+
+.events-subbackground{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.events-submenu-input{
+    width: 120px;
+    border-color: #dac390;
+}
+
+.events-submenu{
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid #dac390;
+    border-radius: 3px;
+    margin-top: -15px;
+    margin-left: 20px;
+    position: absolute;
+    background: white;
+    z-index: 1000;
+    padding: 20px;
+    max-width: 120px;
+    max-height: 300px;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+@media (max-width: 460px) {
+    .events-subcalendar{
+        left: calc((100% - 350px)/2);
+    }
+}
+
+@media (min-width: 460px) {
+    .events-subcalendar{
+        margin-top: -15px;
+        margin-left: -150px;
+    }
+}

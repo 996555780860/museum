@@ -1,0 +1,62 @@
+.secondseegallery-museum{
+    width: 100%;
+    text-align: center;
+}
+
+.secondseegallery-museum-line{
+    margin-top: 20px;
+}
+
+.secondseegallery-museum-select:hover{
+    color: white;
+    background: #dac390;
+}
+
+.secondseegallery-museum-select{
+    height: 50px;
+    display: inline-block;
+    padding: 15px;
+    width: 180px;
+    margin: 20px;
+    font-size: 15px;
+    border: 2px solid #dac390;
+    background: transparent;
+    color: #242424;
+    font-weight: 700;
+}
+
+.secondseegallery-museum-masonry{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 1304px){
+    .secondseegallery-museum-masonry{
+        max-width: 1304px;
+    }
+    .secondseegallery-museum{
+         padding-top: 40px;
+     }
+}
+
+@media (min-width: 1000px) and (max-width: 1304px){
+    .secondseegallery-museum-masonry{
+        max-width: 1000px;
+    }
+    .secondseegallery-museum{
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 652px) and (max-width: 1000px){
+    .secondseegallery-museum-masonry{
+        max-width: 652px;
+    }
+}
+
+@media (max-width: 652px){
+    .secondseegallery-museum-masonry{
+        max-width: 326px;
+    }
+}

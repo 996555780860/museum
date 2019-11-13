@@ -1,0 +1,113 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.dont-select-text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.text-app {
+  color: #404040;
+  line-height: 1.55;
+}
+
+
+.resizer{
+  cursor: pointer;
+  position: absolute;
+}
+@media (min-width: 1000px) {
+  .textlinestandart {
+    font-size: 16px;
+  }
+  .textlinebig {
+  @include text-app;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .resizer{
+    width: 30px;
+    height: 30px;
+
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .imagegallery-museum-carousel{
+    width: 900px;
+    display: inline-block;
+  }
+  .headline {
+  @include text-app;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .textlinestandart {
+    font-size: 14px;
+  }
+  .textlinebig {
+  @include text-app;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .resizer{
+    width: 25px;
+    height: 25px;
+  }
+  .imagegallery-museum-carousel{
+    width: 100%;
+  }
+  .headline {
+  @include text-app;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.link-white:hover, .link:hover{
+  color: #dac390;
+}
+
+.link-white{
+  color: #fff;
+  text-decoration: none;
+}
+
+.link{
+  color: #000;
+  text-decoration: none;
+}
+
+.link-black{
+  color: #000;
+  text-decoration: none;
+}
+
+

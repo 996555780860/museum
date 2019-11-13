@@ -1,0 +1,146 @@
+
+.event-item:hover{
+    border: 3px solid #f00;
+    border-radius: 3px;
+}
+
+.event-item{
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid #dac390;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.event-image{
+    object-fit: cover;
+    object-position: center;
+    margin: 2px;
+}
+
+.event-name{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.soros-foot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.soros-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.by-cc-nc{
+    height: 50px;
+}
+
+.work-with-soros{
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    width: 300px;
+}
+
+.by-cc-nc-text{
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    max-width: 600px;
+}
+
+.event-property{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.event-property-name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.event-property-value{
+    margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+@media (max-width: 1300px) and (min-width: 860px){
+    .event-hide{
+        display: none;
+    }
+}
+
+@media (min-width: 860px){
+
+    .event-item{
+        width: 400px;
+        height: 480px;
+    }
+
+    .event-image{
+        width: 396px;
+        height: 330px;
+    }
+
+}
+
+@media (max-width: 860px) and (min-width: 660px){
+
+    .event-item{
+        display: inline-block;
+        width: 400px;
+        height: 480px;
+    }
+
+    .event-image{
+        width: 396px;
+        height: 330px;
+    }
+
+}
+
+@media (max-width: 660px){
+
+    .by-cc-nc{
+        margin-top: 50px;
+    }
+
+    .soros-foot{
+        flex-direction: column;
+    }
+
+    .event-item{
+        display: inline-block;
+        width: 300px;
+        height: auto;
+    }
+
+    .event-image{
+        width: 296px;
+        height: 256px;
+    }
+
+}
+
+
+

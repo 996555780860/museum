@@ -1,0 +1,98 @@
+.aboutmuseum-museum{
+    width: calc(100% - 20px);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    font-family: 'Roboto';
+    line-height: 1.55;
+}
+
+.aboutmuseum-worktime{
+    max-width: 405px;
+    padding: 20px;
+    text-align: start;
+    background: #F5F5F5;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aboutmuseum-text{
+    max-width: 900px;
+    display: inline-block;
+    text-align: start;
+    margin-top: 50px;
+}
+
+.aboutmuseum-seealso{
+    display: inline-block;
+    text-align: start;
+    vertical-align: top;
+}
+
+.aboutmuseum-seealso-text{
+    display: inline-block;
+    font-weight: 600;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.aboutmuseum-seealso-urls{
+    text-align: start;
+    display: inline-block;
+    max-width: 350px;
+}
+
+.aboutmuseum-seealso-url{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: rgb(16, 127, 201)
+}
+
+@media (max-width: 940px){
+
+    .aboutmuseum-worktime{
+        font-size: 14px;
+    }
+
+    .aboutmuseum-second{
+        margin-bottom: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: start;
+    }
+}
+
+@media (min-width: 940px){
+
+    .aboutmuseum-worktime{
+        font-size: 20px;
+    }
+
+    .aboutmuseum-second{
+        width: 800px;
+        display: inline-block;
+        text-align: start;
+        margin-bottom: 50px;
+    }
+
+    .aboutmuseum-seealso-urls{
+        margin-left: 10px;
+    }
+
+    .aboutmuseum-seealso{
+        width: 900px;
+    }
+
+    .aboutmuseum-worktime{
+        margin-right: 70px;
+    }
+
+}
+
+
+
